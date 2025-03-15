@@ -1,0 +1,34 @@
+{
+  "name": "jcb-vertical-split-panel",
+  "author": "JCB",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/jcb-vertical-split-panel.js",
+  "exports": {
+    ".": "./dist/jcb-vertical-split-panel.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "docgen": "docgen --api XXX --output-readme README2.md"
+  },
+  "keywords": [
+    "webcomponent",
+    "vertical-split-pane"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcbuisson/jcb-vertical-split-panel.git"
+  },
+
+  "dependencies": {
+    "lit": "^2.8.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.5"
+  }
+}
