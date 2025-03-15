@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
    build: {
       lib: {
-         entry: 'src/jcb-upload.js',
+         entry: 'src/jcb-vertical-split-panel.js',
          formats: ['es'],
       },
       rollupOptions: {
